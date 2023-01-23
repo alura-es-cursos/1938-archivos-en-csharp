@@ -7,8 +7,13 @@ partial class Program
     {
 
         //EscribeArchivoCSV();
-        EscribeArchivoStreamWriter();
-        Console.WriteLine("Escritura finalizada");
+        //VerificandoMetodoFlush();
+        //EscribiendoVariablesNoString();
+        EscribirBinario();
+        Console.WriteLine("Archivo escrito");
+        Console.ReadLine();
+        LeerBinario();
+        Console.WriteLine("Aplicación finalizada");
         Console.ReadLine();
     }
 
